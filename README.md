@@ -6,7 +6,7 @@
    2. Cài đặt java
    3. Cài đặt yarn
    4. Cài đặt Android Sdk
-   5. Cai dat thiet bi ao de phat trien
+   5. Cài đặt thiết bị ảo để phát triển
    6. Khôi phục các dependencies
    7. Build và chạy ứng dụng
 
@@ -35,7 +35,7 @@
 * Tiếp tục chọn **Path** trong **Users variables for xxx**. Chọn **Edit**
 ![a](https://media.discordapp.net/attachments/636786976556711946/1028025334928515213/unknown.png)
 * Chọn **New** rồi điền **đường dẫn lúc nãy** + **\bin**. Chọn **OK** (2 lần OK)
-![a](https://media.discordapp.net/attachments/636786976556711946/1028027100235575296/unknown.png)
+![a](https://media.discordapp.net/attachments/636786976556711946/1028363449396379749/unknown.png)
 * Kết thúc cài đặt, mở **cmd** hoặc **powershell**,… gõ `java --version`  
 
    *Kết quả*  
@@ -56,7 +56,7 @@
 ![node](https://media.discordapp.net/attachments/636786976556711946/1028017024904994846/unknown.png)
 * Mở thư mục **Sdk** vừa giải nén, ta copy đường dẫn
 ![node](https://media.discordapp.net/attachments/636786976556711946/1028031534705422346/unknown.png)
-* Mở tìm kiếm của Windows, tìm **env** rồi chọn **Edit the system environment variables**  
+* Mở tìm kiếm của Windows, tìm **env** rồi chọn **Edit environment variables for your account**  
 ![node](https://anakage.com/blog/wp-content/uploads/2022/02/image.png)  
 * Chọn **New** trong **Users variables for xxx**   
 ![node](https://media.discordapp.net/attachments/636786976556711946/1028021643047600258/unknown.png)
@@ -66,7 +66,7 @@
 ![a](https://media.discordapp.net/attachments/636786976556711946/1028025334928515213/unknown.png)
 * Chọn **New** rồi điền **đường dẫn lúc nãy** + **\platform-tools**. Chọn **OK** (2 lần OK)
 ![a](https://media.discordapp.net/attachments/636786976556711946/1028033085025034371/unknown.png)
-* Kết thúc cài đặt, mở **cmd** hoặc **powershell**,… chay `adb --version`  
+* Kết thúc cài đặt, mở **cmd** hoặc **powershell**,… chạy `adb --version`  
 
    *Kết quả*  
    ![node](https://media.discordapp.net/attachments/636786976556711946/1028034589823869048/unknown.png)
@@ -76,12 +76,12 @@
 * Chuyển sang chế độ dọc: **Settings** -> **Display** -> **Display Resolution** -> **Portrait**   
 ![s](https://media.discordapp.net/attachments/636786976556711946/1028056576189276261/unknown.png)
 * Bật ADB: **Settings** -> **Advanced** -> **Android Debug Bridge(ADB)**   
-![w](https://media.discordapp.net/attachments/636786976556711946/1028050621401673949/unknown.png)
+![w](https://360auto.vn/wp-content/uploads/2021/05/image_2021-05-05_09-57-56.png)
 * Mở **cmd** hoặc **powershell**,... chạy `adb connect 127.0.0.1:5555`
 * Kết thúc cài đặt, chạy tiếp `adb devices`   
 
    *Kết quảc trạng thái device là OK*  
-   ![node](https://media.discordapp.net/attachments/636786976556711946/1028056013678587904/unknown.png)
+   ![node](https://user-images.githubusercontent.com/8817008/111892100-285bc480-8a33-11eb-9d4b-d0a38b659c0d.png)
 
 > Khôi phục các dependencies
 * Mở thư mục project, trên thanh địa chỉ gõ **cmd** hoặc **powershell**,... rồi nhấn **Enter**   
